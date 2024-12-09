@@ -1,1 +1,170 @@
+body, h1, h2, p, ul, li, a, input, button, textarea, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    line-height: 4;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+ 
+    font-size: 24px;
+    text-align: left;
+}
+
+header nav ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://get.pxhere.com/photo/dish-pizza-food-cuisine-pizza-cheese-sicilian-pizza-california-style-pizza-flatbread-ingredient-pepperoni-fast-food-italian-food-tarte-flamb-e-Take-out-food-recipe-meat-comfort-food-junk-food-produce-sausage-baked-goods-american-food-dessert-supper-gluten-pizza-stone-finger-food-baking-dairy-cooking-Manakish-mediterranean-food-1618005.jpg') no-repeat center center/cover;
+   
+}
+    #hero h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f4a261;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 1s;
+}
+
+#hero .btn:hover {
+    background: #e76f51;
+}
+
+.menu-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: url('https://get.pxhere.com/photo/dish-pizza-food-cuisine-pizza-cheese-sicilian-pizza-california-style-pizza-flatbread-ingredient-pepperoni-fast-food-italian-food-tarte-flamb-e-Take-out-food-recipe-meat-comfort-food-junk-food-produce-sausage-baked-goods-american-food-dessert-supper-gluten-pizza-stone-finger-food-baking-dairy-cooking-Manakish-mediterranean-food-1618005.jpg') no-repeat center center/cover;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    color: #000000;
+}
+
+
+.menu-item .price {
+    margin-top: 0px;
+    font-weight: bold;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #f4a261;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e76f51;
+    transition: background 1s;
+
+}
+
+.locations {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.location {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.location:last-child {
+    border-bottom: none;
+}
+
+.location h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.location p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+footer {
+    line-height: 6;
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
 
